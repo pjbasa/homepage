@@ -1,0 +1,564 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body { 
+
+      background : url("../img/background121.jpg");
+      background-size : cover;
+      background-attachment : fixed;
+      position : relative;
+      width: 100%
+}
+
+.btt a {
+
+      color : #FFFFFF;
+      text-align : center;
+
+}
+
+.projectName a {
+
+      color : #FFFFFF;
+      padding-left : 2em;
+
+}
+
+
+.nav>li>a {
+
+     letter-spacing : 0.05em;
+     text-transform : uppercase;
+     list-style-type : none;
+     color : #FFFFFF;
+     padding-right : 3em;
+
+}
+
+
+#home {
+
+     color : #FFFFFF;
+     position : relative;
+
+}
+
+#head {
+
+     padding : 3em 2em 3em;
+     color : #FFFFFF;
+     text-align : left;
+
+}
+
+#head h1, p {
+
+     padding-top : 0em;
+
+}
+
+#head a {
+
+     position : relative;
+     display : block;
+     text-align : left;
+     padding-top : 4em;
+
+}
+
+.container-fluid, .carousel {
+
+     width : 100%;
+     padding-left : 0em;
+     padding-right : 0em;
+
+}
+
+
+#carousel-example-generic {
+
+    position : relative;
+    width : 100%;
+
+}
+
+#portfolio {
+
+     width : 100%;
+     padding : 2em;
+     padding-left : 3em;
+     text-align : center;
+     color : #FFFFFF;
+
+}
+
+/** Typography-Index **/
+
+
+#head h1 {
+
+      font-family : Helvetica Neue ,Helvetica,Arial,sans-serif;
+      font-size : 5em;
+
+}
+
+#head p {
+
+      font-family : Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-size : 2em;
+
+} 
+
+#head a {
+
+      font-family : Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-size : 1em;
+
+}
+
+.main-columns h2 {
+
+       font-family : Helvetica Neue,Helvetica,Arial,sans-serif;
+       font-size : 2em;
+
+}
+
+.main-columns p {
+
+       font-family : Helvetica Neue,Helvetica,Arial,sans-serif;
+       font-size : 1.2em;
+
+}
+
+
+/*** About Page ***/
+
+
+.header-about h1 {
+
+      margin-bottom : 0em;
+      display : inline;
+      text-align : center;
+
+}
+
+.image-about {
+
+      padding-top : 2em;
+      width : 100%;
+      display : inline;
+      float : right;
+      position : relative;
+
+}
+
+#about {
+
+      background-color : #808080;
+      padding : 4em 2em;
+      text-align : center;
+
+    
+}
+
+.story-about h3  {
+
+      display : inline-block;
+      text-align : center;
+
+}
+
+#skill-list-about {
+
+      display : inline-block;
+      clear : both;
+
+}
+
+#skills-about h3 {
+
+      text-align : center;
+      color : #000000;
+
+}
+
+#skills-about {
+
+      float : left;
+      padding : 2em;
+      background-color : #5AD4C2;
+      background-opacity : 0.4;
+      color : #000000;
+
+}
+
+#intro-about {
+
+      padding-top : 2em;
+      display : block;
+      float : left;
+      position : relative;
+
+}
+
+#intro-about h2, h4, a {
+
+      color : #FFFFFF;
+      padding : 0em;
+
+}
+
+.story-about {
+
+      text-align : left;
+      padding-bottom : 8em;
+
+}
+
+.story-about h3,p {
+
+      clear : both;
+      color : #FFFFFF;
+      float : left;
+
+}
+
+#video {
+
+      padding-top : 6em;
+
+}
+
+/*Typography About Page*/
+
+#about {
+
+      width : 100%;
+      font-family : Helvetica, Arial, sans-serif, Futura;
+      color : #FFFFFF;
+
+}
+
+#intro-about h2 {
+
+      color : #FFFFFF;
+      font-family : Futura, Helvetica, Arial, sans-serif;
+      font-size : 2em;
+      font-weight : 100;
+
+}
+
+#intro-about h4 {
+
+      color : #FFFFFF;
+      font-family : Futura, Helvetica, Arial, sans-serif;
+      font-size : 2em;
+      font-weight : 100;
+
+}
+
+#skills-about {
+
+      background-color : #00FFFF;
+      padding : 1em;
+
+}
+
+#skills-about h3 {
+
+      text-transform : uppercase;
+      color : #000000;
+
+}
+
+#skill-list-about li  {
+
+      font-family : Georgia, Verdana, Geneva, Helvetica;
+      color : #000000;
+      text-align : center;
+
+}
+
+/**** Contact Page ****/
+
+#contact {
+
+      background : url("../img/background111.jpg") no-repeat center center fixed;
+      padding : 3em 4em 6em 3em;
+      background-size : cover;
+      text-align : center;
+      
+      width : 100%;
+      height : 100%;
+
+}
+
+
+#map {
+
+    padding : 2em;
+    height : 30em;
+    width : 50%;
+}
+#deets {
+
+      padding : 4em 3em 2em;
+      color : #FFFFFF;
+
+}
+
+
+#directory ul li {
+
+      display : block;
+      text-align : center;
+      color : #FFFFFF;
+
+}
+
+form {
+
+      display : inline-block;
+      width : 66%;
+      text-align : center;
+
+      
+}
+
+#must {
+
+      display : inline;
+      text-align : center;
+      width : 100%;
+
+}
+
+#must p  {
+
+      display : inline;
+      text-align : center;
+      padding : 0em;
+      width : 100%;
+
+}
+
+input {
+
+      text-align : center;
+      color : #FFFFFF;
+      width : 80%;
+   
+}
+
+#fields {
+
+      display: block;
+      text-align : center;
+      color : #FFFFFF;
+      padding : 2em 4em;
+
+}
+
+#message {
+
+      display : inline;
+      text-align : center;
+      color : #FFFFFF;
+
+}
+
+#message-box {
+
+      text-align : center;
+      color : #000000;
+
+}
+
+#availability-contact h3 {
+
+      text-align : center;
+      padding-bottom: 2em;
+
+}
+
+
+/* Typography-Contact Page */
+
+ #contact {
+
+      font-family : Georgia, Verdana, Geneva, Helvetica;
+      color : #FFFFFF;
+
+}
+
+
+
+/*** Works ***/
+
+#works {
+
+       text-align : center;
+       width : 100%;
+       color : #FFFFFF;
+       padding-top : 2em;
+       padding-bottom : 4em;
+       position : relative;
+       vertical-align: top;
+
+}
+
+#works h1 {
+       color: #FFFFFF;
+       padding-top : 1em;
+      
+
+}
+
+/*#work1 h4 {
+
+       padding-top : 4em;
+
+
+}
+
+#work2 h4 {
+
+       padding-top : 4em;
+      
+
+}*/
+
+#row {
+
+       display : inline;
+
+}
+
+.img-responsive {
+       vertical-align : text-top;
+       display : inline-block;
+       padding-bottom : 0em;
+
+}
+
+.works-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position : absolute; /* let's us move the text around and not worry about the image */
+  top : 100%; /* position the text 15% away from the top */
+  left : 10%;
+  color : #FFFFFF;
+  font-family : Helvetica;
+  text-transform : uppercase;
+  font-weight : 700;
+  letter-spacing : 0.5em;
+  line-height : 1.6;
+  display: none;
+}
+.proj-title {
+  font-weight : 100;
+  color: #000000;
+}
+
+/** Typography-Works **/
+
+#works {
+
+       font-family : Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+
+/*** FAQs ***/
+
+#faqs {
+
+       padding-top : 18em;
+       padding-bottom : 4em;
+       width : 100%;
+
+}
+
+.title-faqs {
+
+       padding-top : 2em;
+       padding-bottom : 1em;
+       text-align : center;
+       color : #FFFFFF;
+
+}
+
+#accordion {
+
+       padding : 0em 10em 1em;
+       height : auto;
+
+}
+
+.panel-title {
+
+       text-align : center;
+
+}
+
+/** Typography-FAQs **/
+
+.title-faqs h2 {
+
+       font-family : Helvetica,Arial,sans-serif, Georgia;
+
+}
+
+/** Learn More **/
+
+.learn-more {
+
+       text-align : left;
+       float : left;
+       color : #FFFFFF;
+       padding-left : 2em;
+
+}
+
+.modal-button {
+
+       float : right;
+       padding : 2em;
+
+}
+
+#modalembed {
+
+       height : 45em;
+       width : 100%;
+       padding : 3em 1em 1em;
+
+}
+
+/** Learn More-Typography **/
+
+#modal1 {
+
+       font-family : Helvetica,Arial,sans-serif, Georgia;
+
+}
+
+/* Footer */
+
+footer  {
+
+       text-align : center;
+       display : block;
+       color : #FFFFFF;
+       padding-bottom : 3em;
+       padding-top : 6em;
+       float : none;
+       width : 100%;
+       clear : both;
+
+}
